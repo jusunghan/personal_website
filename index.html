@@ -4,37 +4,48 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Jae Yong Kim</title>
-	
+	    <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">	
 		<script src="js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
         <!-- CSS -->
-        <link rel="stylesheet" href="css/styles.css">	
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- JavaScript -->
+        <script src="js/app.js"></script>	
 	</head>
 	<body>
 	    <div class="container-fluid">
 	    	<div class="row">
-	    		<div id="main-about" class="col-md-6 main-box">
-	    			<h2 class="main-title">Jae Yong Kim</h2>
+	    		<div id="main-about" class="col-md-3 main-box">
+	    			<h2 class="main-title name-title">JAE YONG KIM</h2>
 	    		</div>
-	    		<div id="Engineering" class="col-md-6 main-box">
+	    		<div id="engineering" class="col-md-3 main-box">
+	    		    <i class="fa fa-camera fa-5x"></i>
 	    			<h2 class="main-title">Engineering Projects</h2>
 	    		</div>
-	    		<div id="Web" class="col-md-6 main-box">
-	    			<h2 class="main-title">Web Development</h2>
+	    		<div id="web" class="col-md-3 main-box">
+	    			<img class="web-pic" src="img/web_icon.svg" alt="">
+                    <div class="web-detail" onclick="window.location='pages/web.html';">
+                        <h2>Web Development</h2>
+                        <p>Web development projects that I have worked on using various languages.</p>
+                    </div>
 	    		</div>
-                <div id="photography" class="col-md-6 main-box">
-                    <span class="text-box"></span>
-                    <h2 class="main-title photo-title">Photography</h2>
-                    <img class="main-pic" src="img/bilbao.jpg" alt="photography">
+               
+                <div id="photography" class="col-md-3 main-box">
+                    <span class="text-box front"></span>
+                    <h2 class="main-title photo-title front">Photography</h2>
+                    <img class="main-pic back" src="img/bilbao.jpg" alt="photography">
                 </div>
+                
 	    	</div>
 	    </div>
 	
 		<!-- Bootstrap -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>	
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"crossorigin="anonymous"></script>
 	</body>
 </html>

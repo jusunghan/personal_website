@@ -1,0 +1,33 @@
+html, 
+body {
+	height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+	height: 100%;
+}
+
+.row {
+    padding: 2rem;
+    overflow: hidden;
+}
+
+#item-1 {
+    width: 100%;
+}
+
+.web-img {
+    width: 100%;
+    background-color: red;
+}
+
+.web-detail {
+    width: 100%;
+}
+.web-language {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

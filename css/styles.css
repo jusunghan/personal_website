@@ -2,6 +2,8 @@ html,
 body {
 	height: 100%;
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .container-fluid {
@@ -33,19 +35,55 @@ body {
 }
 
 .main-pic {
+    display: block;
     min-height: 100%;
     width: auto;
 }
 
-.text-box {
-    position: absolute;
-    height: 100px;
-    width: 300px;
-    background-color: black;
-    opacity: 0.7;
+#web {
+    background: blue;
 }
 
-.photo-title {
+.name-title {
+    text-align: center;
+}
+
+.photo-title,
+.web-title {
     color: white;
     opacity: 1;
 } 
+
+.web-pic {
+    position: absolute;
+    display: block;
+    height: 50%;
+    left: 50%;
+    margin-top: 15%;
+    visibility: visible;
+}
+
+#slider {
+    position: absolute;
+    right: -100%;
+}
+
+.web-detail {
+    height: 100%;
+    padding-top: 10%;
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.web-detail > h2 {
+    text-decoration: underline;
+}
+
+.fa-camera {
+    visibility: visible;
+}
+
+.tile-link {
+    display: block;
+}
