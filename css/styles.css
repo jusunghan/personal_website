@@ -9,7 +9,10 @@ body {
 }
 
 .row {
-	height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .col-md-6 {
@@ -17,9 +20,10 @@ body {
 }
 
 .main-box {
-	height: 50%;
+	height: 80%;
     position: relative;
     overflow: hidden;
+    padding: 2%;
 }
 
 #main-about {
@@ -29,23 +33,74 @@ body {
 .main-title {
 	margin-top: 10px;
     position: absolute;
-    left: 15px;
+    opacity: 1;
+    color: black;
 }
 
 .main-pic {
-    min-height: 100%;
+    height: auto;
     width: auto;
 }
 
-.text-box {
-    position: absolute;
-    height: 100px;
-    width: 300px;
-    background-color: black;
-    opacity: 0.7;
+.main-icon {
+    height: 100%;
 }
 
-.photo-title {
-    color: white;
-    opacity: 1;
-} 
+.heading-section {
+    padding-bottom: 5%;
+    height: 10%;
+}
+
+.inner-box {
+    height: 100%;
+    background-color: white;
+}
+
+.icon {
+    font-size: 5em;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+.engineering {
+    background-color: #3498db;
+}
+
+.web {
+    background-color: #1abc9c;
+}
+
+.photography {
+    background-color: #e67e22;
+}
+
+.first-row {
+    height: 10%;
+}
+
+.second-row {
+    height: 80%;
+}
+
+/* bottons */
+
+.btn {
+    padding: .1rem .1rem;
+}
+
+.github-btn {
+    color: #24292e;
+}
+
+.instagram-btn {
+    color: #dc346e;
+}
+
+.linkedin-btn {
+    color: #0077b5;
+}
+
+.facebook-btn {
+    color: #4267b2;
+}
