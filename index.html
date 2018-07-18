@@ -4,55 +4,69 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Jae Yong Kim</title>
-    
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	    <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">	
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Fontawesome-->
-        <script src="https://use.fontawesome.com/165343b1da.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
         <!-- CSS -->
-        <link rel="stylesheet" href="css/styles.css">	
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- JavaScript -->
+        <script src="js/app.js"></script>	
 	</head>
 	<body>
-	    <div class="container-fluid">
-
-            <div class="row first-row">
-                <div class="heading-section col-sm-12 text-center">
-                    <h2>Name</h2>
-                    <p>Computer Engineer</p>
-                    <a href="https://github.com" class="btn github-btn" role="button"><i class="fa fa-github-square fa-2x"></i></a>
-                    <a href="https://instagram.com" class="btn instagram-btn" role="button"><i class="fa fa-instagram fa-2x"></i></a>
-                    <a href="https://linkedin.com" class="btn linkedin-btn" role="button"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    <a href="https://facebook.com" class="btn facebook-btn" role="button"><i class="fa fa-facebook-square fa-2x"></i></a>
-                </div>
+	    <div class="container">
+            <!-- Profile Area -->
+            <div id="profile" class="row">
+	           <div class="col-sm-12 text-center">
+                    <h2>Jae Yong Kim</h2>
+                    <p>Mechanical Engineer / Web Developer</p>
+                    <a role="button" href="pages/resume.html" class="btn btn-outline-dark">View Full Resume</a>
+                    <br>
+                    <div id="social-btn">
+                        <a href="https://github.com" class="btn github-btn" role="button"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="https://instagram.com" class="btn instagram-btn" role="button"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://linkedin.com" class="btn linkedin-btn" role="button"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://facebook.com" class="btn facebook-btn" role="button"><i class="fa fa-facebook-square fa-2x"></i></a>
+                   </div>
+               </div>
             </div>
-            
-	    	<div class="row second-row">
-	    		<div class="col-md-4 col-sm-6 main-box">
-                    <div class="inner-box icon engineering">
-                        <i class="fa fa-cogs"></i>
-                    </div>
-	    		</div>
-	    		<div class="col-md-4 col-sm-6 main-box">
-	    			<div class="inner-box icon web">
-                        <i class="fa fa-html5"></i>
-                    </div>
-	    		</div>
-                <div class="col-md-4 main-box">
-                    <div class="inner-box icon photography">
-                        <i class="fa fa-camera-retro"></i>
-                    </div>
+            <!-- Menu Area -->
+            <div id="menu-field" class="row">
+                <div id="engineering" class="col-md-4 col-sm-6 text-center main-box">
+                    <a href=#>
+                        <div id="eng-field" class="menu-item">
+                            <i class="fa fa-cogs fa-5x"></i>
+                            <p>Engineering Project</p>
+                        </div>
+                    </a>
+	            </div>
+
+	            <div id="web" class="col-md-4 col-sm-6 text-center main-box">
+                   <a href="pages/web.html">
+                        <div id="web-field" class="menu-item">
+                            <i class="fa fa-html5 fa-5x"></i>
+                            <p>Web Development</p>
+                        </div>
+                    </a>
                 </div>
-	    	</div>
-	    </div>
-		
-		
-		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>	
+
+                <div id="photography" class="col-md-4 col-sm-6 text-center main-box">
+                    <a href=#>
+                        <div id="photo-field" class="menu-item">
+                            <i class="fa fa-camera-retro fa-5x"></i>
+                            <p>Photography</p>
+                        </div>
+                    </a>
+                </div>
+	       </div>
+        </div>
+        
+        <!-- Bootstrap -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"crossorigin="anonymous"></script>
 	</body>
 </html>

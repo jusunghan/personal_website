@@ -4,88 +4,39 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid {
+.container {
 	height: 100%;
 }
 
 .row {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    width: 100%;
+/*
+    padding-top: 50px;
+    padding-bottom: 30px;
+*/
+/*
     padding-left: 10%;
     padding-right: 10%;
+*/
 }
 
-.col-md-6 {
-    padding: 0;
+/* Profile */
+#profile {
+    height: 30%;
+    padding-top: 60px;
+    margin: 0;
 }
 
-.main-box {
-	height: 80%;
-    position: relative;
-    overflow: hidden;
-    padding: 2%;
+/* Profile Buttons */
+.btn-secondary {
+
 }
 
-#main-about {
-	background: grey;
+#social-btn {
+    margin-top: 10px;
 }
 
-.main-title {
-	margin-top: 10px;
-    position: absolute;
-    opacity: 1;
-    color: black;
-}
-
-.main-pic {
-    height: auto;
-    width: auto;
-}
-
-.main-icon {
-    height: 100%;
-}
-
-.heading-section {
-    padding-bottom: 5%;
-    height: 10%;
-}
-
-.inner-box {
-    height: 100%;
-    background-color: white;
-}
-
-.icon {
-    font-size: 5em;
-    padding-top: 25%;
-    padding-bottom: 25%;
-    text-align: center;
-}
-
-.engineering {
-    background-color: #3498db;
-}
-
-.web {
-    background-color: #1abc9c;
-}
-
-.photography {
-    background-color: #e67e22;
-}
-
-.first-row {
-    height: 10%;
-}
-
-.second-row {
-    height: 80%;
-}
-
-/* bottons */
-
-.btn {
+#social-btn > .btn {
     padding: .1rem .1rem;
 }
 
@@ -103,4 +54,53 @@ body {
 
 .facebook-btn {
     color: #4267b2;
+}
+
+/* Menu Area */
+#menu-field {
+    height: 70%;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.menu-item {
+/*    position: absolute;*/
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    top: 30px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.menu-item > p {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .menu-item {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        top: 30px;
+        padding-top: 40px;
+        text-align: center;
+    }
+}
+
+/* Menu Items */
+#eng-field {
+    background: #3498db;
+}
+
+#web-field {
+    background-color: #1abc9c;
+}
+
+#photo-field {
+    background-color: #e67e22;
+}
+
+.fa-camera {
+    visibility: visible;
 }
