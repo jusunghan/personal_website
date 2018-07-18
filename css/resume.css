@@ -50,3 +50,13 @@ img.rounded {
 .section-odd {
     background-color: #f7f7f7;
 }
+
+.page-scroll{
+    transition-property: -webkit-transform;
+    transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    /* moz prefix for firefox */
+    -moz-transition-property: -webkit-transform;
+    -moz-transition-duration: 1s;
+}
