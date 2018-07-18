@@ -2,88 +2,105 @@ html,
 body {
 	height: 100%;
     font-family: 'Montserrat', sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
-.container-fluid {
+.container {
 	height: 100%;
 }
 
 .row {
-	height: 100vh;
+    width: 100%;
+/*
+    padding-top: 50px;
+    padding-bottom: 30px;
+*/
+/*
+    padding-left: 10%;
+    padding-right: 10%;
+*/
 }
 
-.col-md-6 {
-    padding: 0;
+/* Profile */
+#profile {
+    height: 30%;
+    padding-top: 60px;
+    margin: 0;
 }
 
-.main-box {
-	height: 50%;
-    position: relative;
-    overflow: hidden;
+/* Profile Buttons */
+.btn-secondary {
+
 }
 
-#main-about {
-	background: grey;
+#social-btn {
+    margin-top: 10px;
 }
 
-.main-title {
-	margin-top: 10px;
-    position: absolute;
-    left: 15px;
+#social-btn > .btn {
+    padding: .1rem .1rem;
 }
 
-.main-pic {
-    display: block;
-    min-height: 100%;
-    width: auto;
+.github-btn {
+    color: #24292e;
 }
 
-#web {
-    background: blue;
+.instagram-btn {
+    color: #dc346e;
 }
 
-.name-title {
+.linkedin-btn {
+    color: #0077b5;
+}
+
+.facebook-btn {
+    color: #4267b2;
+}
+
+/* Menu Area */
+#menu-field {
+    height: 70%;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.menu-item {
+/*    position: absolute;*/
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    top: 30px;
+    padding-top: 80px;
     text-align: center;
 }
 
-.photo-title,
-.web-title {
-    color: white;
-    opacity: 1;
-} 
-
-.web-pic {
-    position: absolute;
-    display: block;
-    height: 50%;
-    left: 50%;
-    margin-top: 15%;
-    visibility: visible;
+.menu-item > p {
+    padding-top: 10px;
 }
 
-#slider {
-    position: absolute;
-    right: -100%;
+@media screen and (max-width: 992px) and (min-width: 576px) {
+    .menu-item {
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        top: 30px;
+        padding-top: 40px;
+        text-align: center;
+    }
 }
 
-.web-detail {
-    height: 100%;
-    padding-top: 10%;
-    position: absolute;
-    visibility: hidden;
-    cursor: pointer;
+/* Menu Items */
+#eng-field {
+    background: #3498db;
 }
 
-.web-detail > h2 {
-    text-decoration: underline;
+#web-field {
+    background-color: #1abc9c;
+}
+
+#photo-field {
+    background-color: #e67e22;
 }
 
 .fa-camera {
     visibility: visible;
-}
-
-.tile-link {
-    display: block;
 }

@@ -1,11 +1,13 @@
-$(function() {
-    $('#web').on("mouseover", function (){
-//        $("#slider").animate({"right":"50%"}, "slow");
-        $(".web-detail").css("visibility", "visible");
-        $(".web-pic").css("visibility", "hidden")
-    }).on("mouseleave", function (){
-//        $("#slider").animate({"right":"-99%"}, "fast");
-        $(".web-detail").css("visibility", "hidden")
-        $(".web-pic").css("visibility", "visible")
-    });
+//$(function() {
+//    $('#web').on("mouseover", function (){
+//        $(".web-detail").css("visibility", "visible");
+//        $(".fa-html5").css("visibility", "hidden")
+//    }).on("mouseleave", function (){
+//        $(".web-detail").css("visibility", "hidden")
+//        $(".fa-html5").css("visibility", "visible")
+//    });
+//});
+
+$(".web-field").click(function(){
+    window.location = "../pages/web.html"
 });

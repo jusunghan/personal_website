@@ -19,33 +19,54 @@
         <script src="js/app.js"></script>	
 	</head>
 	<body>
-	    <div class="container-fluid">
-	    	<div class="row">
-	    		<div id="main-about" class="col-md-3 main-box">
-	    			<h2 class="main-title name-title">JAE YONG KIM</h2>
-	    		</div>
-	    		<div id="engineering" class="col-md-3 main-box">
-	    		    <i class="fa fa-camera fa-5x"></i>
-	    			<h2 class="main-title">Engineering Projects</h2>
-	    		</div>
-	    		<div id="web" class="col-md-3 main-box">
-	    			<img class="web-pic" src="img/web_icon.svg" alt="">
-                    <div class="web-detail" onclick="window.location='pages/web.html';">
-                        <h2>Web Development</h2>
-                        <p>Web development projects that I have worked on using various languages.</p>
-                    </div>
-	    		</div>
-               
-                <div id="photography" class="col-md-3 main-box">
-                    <span class="text-box front"></span>
-                    <h2 class="main-title photo-title front">Photography</h2>
-                    <img class="main-pic back" src="img/bilbao.jpg" alt="photography">
+	    <div class="container">
+            <!-- Profile Area -->
+            <div id="profile" class="row">
+	           <div class="col-sm-12 text-center">
+                    <h2>Jae Yong Kim</h2>
+                    <p>Mechanical Engineer / Web Developer</p>
+                    <button type="button" class="btn btn-outline-dark">View Full Resume</button>
+                    <br>
+                    <div id="social-btn">
+                        <a href="https://github.com" class="btn github-btn" role="button"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="https://instagram.com" class="btn instagram-btn" role="button"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://linkedin.com" class="btn linkedin-btn" role="button"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="https://facebook.com" class="btn facebook-btn" role="button"><i class="fa fa-facebook-square fa-2x"></i></a>
+                   </div>
+               </div>
+            </div>
+            <!-- Menu Area -->
+            <div id="menu-field" class="row">
+                <div id="engineering" class="col-md-4 col-sm-6 text-center main-box">
+                    <a href=#>
+                        <div id="eng-field" class="menu-item">
+                            <i class="fa fa-cogs fa-5x"></i>
+                            <p>Engineering Project</p>
+                        </div>
+                    </a>
+	            </div>
+
+	            <div id="web" class="col-md-4 col-sm-6 text-center main-box">
+                   <a href="pages/web.html">
+                        <div id="web-field" class="menu-item">
+                            <i class="fa fa-html5 fa-5x"></i>
+                            <p>Web Development</p>
+                        </div>
+                    </a>
                 </div>
-                
-	    	</div>
-	    </div>
-	
-		<!-- Bootstrap -->
+
+                <div id="photography" class="col-md-4 col-sm-6 text-center main-box">
+                    <a href=#>
+                        <div id="photo-field" class="menu-item">
+                            <i class="fa fa-camera-retro fa-5x"></i>
+                            <p>Photography</p>
+                        </div>
+                    </a>
+                </div>
+	       </div>
+        </div>
+        
+        <!-- Bootstrap -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"crossorigin="anonymous"></script>
 	</body>
 </html>
