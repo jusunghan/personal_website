@@ -1,0 +1,52 @@
+
+html, 
+body {
+    height: 100%;
+}
+
+/* cover */
+#cover {
+    /* background: #222 url('img/lake.jpg') center center no-repeat; */
+    background-size: cover;
+    color: white;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    /* align-items: center; */
+    padding-top: 100px;
+}
+
+.intro {
+    max-width: 100%;
+    color: black;
+}
+
+/* profile picture */
+img.rounded {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+/* profile description */
+.profile-description {
+    margin:1%
+}
+
+/* body sections */
+#education-section {
+    height:50%;
+    padding-top:5%;
+}
+
+#projects-section,
+#leadership-section,
+#skills-section {
+    height:100%;
+    padding-top:5%;
+}
+
+.section-odd {
+    background-color: #f7f7f7;
+}
